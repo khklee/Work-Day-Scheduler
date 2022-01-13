@@ -31,32 +31,30 @@ textarea{
 }
 
 .row {
-  /* white-space: pre-wrap; */
+  white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
 }
 
-.no-padding {
-  padding: 0;
-}
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding-top: 30px;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #eae4e9;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #fad2e1;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #bee1e6;
   color: white;
 }
 
