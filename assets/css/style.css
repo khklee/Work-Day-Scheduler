@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Indie Flower', cursive;
   font-size: 16px;
   line-height: 1;
 }
@@ -21,7 +21,13 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+.lead {
+  font-size: 1.3vw;
+  padding-top: 30px;
+}
+
 .description{
+  font-size: 1.5vw;
   white-space: pre-wrap;
 }
 
@@ -37,6 +43,7 @@ textarea {
 }
 
 .hour {
+  font-size: 1.5vw;
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
@@ -63,7 +70,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #89c2d9;
   color: white;
 }
 
