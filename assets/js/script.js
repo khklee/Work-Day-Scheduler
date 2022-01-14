@@ -2,7 +2,6 @@
 $("#currentDay").text(moment().format("MMM DD, YYYY - hh:mm a"));
 
 // save events on local storage
-
 $(".saveBtn").on("click", function() {
     var events = $(this).siblings(".description")
     .val()
@@ -33,4 +32,19 @@ var timeTracker = function () {
     })
 }
 
+// load events when refresh the webpage
+var loadEvents = function () {
+    $(".hour").each(function () {
+        var currentHour = $(this).text();
+        var currentEvent = localStorage.getItem(currentHour);
+
+        if (currentEvent !== null) {
+            $(this).siblings(".description").val(currentEvent);
+        }
+    })
+
+}
+
+// call functions
 timeTracker();
+loadEvents();
